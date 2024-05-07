@@ -1,3 +1,5 @@
+-- Modelo de Clientes
+
 with markup as (
     SELECT *,
         first_value(customer_id)

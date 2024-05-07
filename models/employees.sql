@@ -1,3 +1,5 @@
+-- Mudando view de funcionário com alguns calculos
+
 WITH employees AS (
     SELECT *,
         date_part(year, current_date) - date_part(year, birth_date) as employee_age,
